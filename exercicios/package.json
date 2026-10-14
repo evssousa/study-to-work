@@ -1,0 +1,26 @@
+{
+  "name": "exercicios-fullstack-js",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Exercícios do plano de estudos com correção automática por testes (Jest).",
+  "scripts": {
+    "test": "node --experimental-vm-modules --no-warnings=ExperimentalWarning node_modules/jest/bin/jest.js",
+    "test:watch": "npm test -- --watch",
+    "progresso": "node scripts/progresso.js",
+    "mutantes": "node scripts/mutantes.js",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "gabarito": "node scripts/testar-gabarito.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^8.0.7",
+    "@babel/preset-react": "^8.0.1",
+    "@babel/preset-typescript": "^8.0.7",
+    "@jest/globals": "^30.5.2",
+    "@types/node": "^24.19.2",
+    "jest": "^30.5.2",
+    "jest-environment-jsdom": "^30.5.2",
+    "jsdom": "^26.1.0",
+    "typescript": "^7.0.2"
+  }
+}
