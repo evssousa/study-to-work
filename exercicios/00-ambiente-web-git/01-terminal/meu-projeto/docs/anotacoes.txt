@@ -1,0 +1,3 @@
+O comando pwd eu não lembro, já o ls confere os arquivos na pasta e o cd .. volta uma pasta acima.
+
+Edit: vi agora que pwd mostra a pasta atual.

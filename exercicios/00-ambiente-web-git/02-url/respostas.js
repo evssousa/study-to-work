@@ -11,13 +11,13 @@
  * Teste: npm run exercicio -- 02-url
  */
 export const partes = {
-  protocolo: null, // ex.: "http"
-  dominio: null,
-  porta: null,
-  caminho: null, // começa com "/"
+  protocolo: "https", // ex.: "http"
+  dominio: "loja.exemplo.com.br",
+  porta: "8080",
+  caminho: "/produtos/tenis", // começa com "/"
   parametros: {
-    cor: null,
-    tamanho: null,
+    cor: "azul",
+    tamanho: "42",
   },
-  fragmento: null,
+  fragmento: "avaliacoes",
 };

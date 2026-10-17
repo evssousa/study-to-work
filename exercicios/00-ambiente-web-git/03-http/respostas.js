@@ -11,47 +11,47 @@
  */
 export const respostas = {
   // Qual método HTTP o navegador usa para BUSCAR a lista de produtos?
-  metodoParaBuscar: null,
+  metodoParaBuscar: "GET",
 
   // Qual método usar para CRIAR um novo pedido?
-  metodoParaCriar: null,
+  metodoParaCriar: "POST",
 
   // Qual método usar para mudar APENAS o endereço de entrega de um pedido (atualização parcial)?
-  metodoParaAtualizarParcialmente: null,
+  metodoParaAtualizarParcialmente: "PATCH",
 
   // Qual método usar para SUBSTITUIR um produto inteiro por uma nova versão?
-  metodoParaSubstituir: null,
+  metodoParaSubstituir: "PUT",
 
   // Qual método usar para REMOVER um item do carrinho?
-  metodoParaRemover: null,
+  metodoParaRemover: "DELETE",
 
   // Qual código de status indica que a busca deu certo?
-  statusSucesso: null,
+  statusSucesso: 200,
 
   // Qual código indica que o pedido foi CRIADO com sucesso?
-  statusCriado: null,
+  statusCriado: 201,
 
   // O cliente enviou um formulário com o e-mail em branco. Qual código o servidor responde?
-  statusRequisicaoInvalida: null,
+  statusRequisicaoInvalida: 400,
 
   // O cliente tentou ver "Meus pedidos" sem ter feito login. Qual código?
-  statusNaoAutenticado: null,
+  statusNaoAutenticado: 401,
 
   // Um cliente logado tentou acessar a área do administrador. Qual código?
-  statusSemPermissao: null,
+  statusSemPermissao: 403,
 
   // O cliente acessou /produtos/999 e esse produto não existe. Qual código?
-  statusNaoEncontrado: null,
+  statusNaoEncontrado: 404,
 
   // O servidor travou por causa de um bug no código. Qual código?
-  statusErroDoServidor: null,
+  statusErroDoServidor: 500,
 
   // Qual a porta padrão do HTTPS?
-  portaPadraoHttps: null,
+  portaPadraoHttps: 443,
 
   // Qual sistema traduz "minhaloja.com.br" para um endereço IP? (sigla)
-  sistemaQueTraduzDominios: null,
+  sistemaQueTraduzDominios: "DNS",
 
   // Em qual parte da requisição vai o token de login: "url", "cabecalho" ou "corpo"?
-  ondeVaiOTokenDeLogin: null,
+  ondeVaiOTokenDeLogin: "cabecalho",
 };
