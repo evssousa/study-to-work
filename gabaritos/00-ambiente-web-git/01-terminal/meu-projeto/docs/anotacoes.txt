@@ -1,0 +1,1 @@
+pwd mostra a pasta atual, ls lista os arquivos e cd .. volta uma pasta.

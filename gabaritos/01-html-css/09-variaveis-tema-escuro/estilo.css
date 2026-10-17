@@ -1,0 +1,24 @@
+:root {
+  --cor-fundo: #ffffff;
+  --cor-texto: #1f2328;
+  --cor-primaria: #0b6bcb;
+  --espaco: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cor-fundo: #0d1117;
+    --cor-texto: #e6edf3;
+  }
+}
+
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+}
+
+.botao {
+  background-color: var(--cor-primaria);
+  color: var(--cor-fundo);
+  padding: var(--espaco);
+}

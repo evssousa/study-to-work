@@ -1,0 +1,6 @@
+[
+  { "categoria": "transporte", "padrao": "uber|99 ?pop" },
+  { "categoria": "mercado", "padrao": "mercado|padaria" },
+  { "categoria": "saude", "padrao": "farmacia|drogaria" },
+  { "categoria": "assinaturas", "padrao": "netflix|spotify" }
+]

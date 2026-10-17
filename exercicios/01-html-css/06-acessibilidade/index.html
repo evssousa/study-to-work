@@ -1,0 +1,42 @@
+<!--
+  Exercício 06 — Corrija os problemas de acessibilidade
+
+  Esta página "funciona", mas é péssima para quem usa leitor de tela, teclado
+  ou mecanismos de busca. Corrija TODOS os problemas abaixo, mantendo o conteúdo:
+
+  1. Falta o idioma da página.
+  2. A logo não tem texto alternativo.
+  3. O "botão" Comprar é uma <div> com onclick: não recebe foco pelo teclado
+     nem é anunciado como botão. Use a tag certa.
+  4. O campo de e-mail não tem <label> e é do tipo errado.
+  5. O link "Clique aqui" não diz para onde leva. O texto do link deve
+     descrever o destino (ex.: "Ver as promoções da semana").
+  6. Os títulos começam em <h3>. A página deve ter um <h1>, e o "Promoções" vira <h2>.
+  7. O topo é uma <div class="topo">: use <header>. O conteúdo principal deve
+     ficar dentro de <main>.
+
+  Aula: Parte A, seção 5 (acessibilidade).
+  Teste: npm run exercicio -- 06-acessibilidade
+-->
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Loja do Bairro</title>
+  </head>
+  <body>
+    <div class="topo">
+      <img src="logo.png" />
+      <span>Loja do Bairro</span>
+    </div>
+
+    <h3>Promoções</h3>
+    <p>Tênis de corrida por apenas R$ 199,90.</p>
+    <div class="botao" onclick="comprar()">Comprar</div>
+
+    <p>Receba ofertas por e-mail:</p>
+    <input type="text" placeholder="Seu e-mail" />
+
+    <p><a href="/promocoes">Clique aqui</a> para ver as promoções da semana.</p>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!--
+  Exercício 14 — Componente com a metodologia BEM
+
+  Neste exercício você escreve o HTML E o CSS (em estilo.css).
+  Crie a página com estrutura básica, ligue o estilo.css com <link> e monte
+  DOIS cartões de produto usando BEM (Bloco__Elemento--Modificador):
+
+  Bloco:      produto                 (a tag <article class="produto">)
+  Elementos:  produto__imagem         (<img>, com alt)
+              produto__nome           (<h2>)
+              produto__preco          (<p>)
+              produto__botao          (<button>)
+  Modificador: o SEGUNDO cartão está em promoção:
+              <article class="produto produto--promocao">
+              e o preço dele também ganha: class="produto__preco produto__preco--promocao"
+
+  Regras do BEM que o teste confere:
+   - Todas as classes em minúsculas, palavras separadas por hífen (ex.: "lista-de-compras").
+   - Quem tem modificador também tem a classe base ("produto produto--promocao").
+   - No CSS, cada regra usa UMA classe só (.produto__nome, e não .produto h2 ou .produto .produto__nome).
+
+  No estilo.css, crie pelo menos as regras: .produto, .produto__nome, .produto__preco,
+  .produto__botao, .produto--promocao e .produto__preco--promocao.
+
+  Aula: Parte B, seção 8.
+  Teste: npm run exercicio -- 14-bem
+-->

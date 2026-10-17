@@ -1,0 +1,22 @@
+/*
+  Exercício 08 — Box model
+
+  1. *, *::before, *::after → box-sizing: border-box
+     (faz o width incluir padding e borda; quase todo projeto profissional começa assim)
+
+  2. .plano →
+     - padding (qualquer valor)
+     - border: 1px solid (qualquer cor)
+     - border-radius (qualquer valor)
+     - margin-bottom (qualquer valor)
+     - max-width: 320px
+
+  3. .plano__botao →
+     - display: inline-block   (links são "inline" e ignoram padding vertical; por quê?)
+     - padding (qualquer valor)
+
+  Use o DevTools (F12 → aba Elements → painel "Computed") para ver a caixa de cada elemento.
+
+  Aula: Parte B, seção 2.
+  Teste: npm run exercicio -- 08-box
+*/

@@ -1,0 +1,11 @@
+{
+  "name": "study-to-work",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "postCreateCommand": "npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": ["vitest.explorer", "ms-vscode.live-server"]
+    }
+  },
+  "forwardPorts": [3000, 5500]
+}

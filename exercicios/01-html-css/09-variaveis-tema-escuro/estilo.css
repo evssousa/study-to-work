@@ -1,0 +1,23 @@
+/*
+  Exercício 09 — Variáveis CSS e tema escuro automático
+
+  1. Em :root, crie as variáveis (custom properties):
+       --cor-fundo, --cor-texto, --cor-primaria, --espaco
+     com os valores que quiser para o tema CLARO.
+
+  2. body → background-color: var(--cor-fundo); color: var(--cor-texto);
+
+  3. .botao → background-color: var(--cor-primaria); padding: var(--espaco);
+
+  4. Tema escuro: dentro de @media (prefers-color-scheme: dark), redefina
+     --cor-fundo e --cor-texto em :root. Só isso! Como o resto do CSS usa as
+     variáveis, a página inteira muda sozinha.
+
+  REGRA: fora do :root, não escreva nenhuma cor "solta" (#fff, rgb(...), white...).
+  Toda cor deve vir de uma variável. É assim que se cria um design system.
+
+  Para testar o tema escuro: F12 → ⋮ → More tools → Rendering → "prefers-color-scheme: dark".
+
+  Aula: Parte B, seção 3 (variáveis CSS).
+  Teste: npm run exercicio -- 09-variaveis
+*/

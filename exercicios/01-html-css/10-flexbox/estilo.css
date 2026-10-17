@@ -1,0 +1,21 @@
+/*
+  Exercício 10 — Flexbox
+
+  1. .cabecalho → logo à esquerda e menu à direita, centralizados na vertical:
+     display: flex; justify-content: space-between; align-items: center;
+
+  2. .cabecalho__menu → itens lado a lado, com espaço entre eles e sem as bolinhas da lista:
+     display: flex; um gap qualquer; list-style: none;
+
+  3. Rodapé sempre no fim da tela (o famoso "sticky footer"):
+     - body → display: flex; flex-direction: column; min-height: 100vh;
+     - main → flex: 1;   (o main "cresce" e empurra o rodapé para baixo)
+
+  4. .rodape → itens empilhados e centralizados:
+     display: flex; flex-direction: column; align-items: center;
+
+  Dica: o site https://flexboxfroggy.com/#pt-br é um ótimo treino (opcional).
+
+  Aula: Parte B, seção 4.
+  Teste: npm run exercicio -- 10-flexbox
+*/

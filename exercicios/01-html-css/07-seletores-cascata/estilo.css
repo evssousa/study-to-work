@@ -1,0 +1,20 @@
+/*
+  Exercício 07 — Seletores e cascata
+
+  Abra o index.html com o Live Server para ver o resultado enquanto escreve.
+  Crie as regras abaixo, cada uma com o seletor pedido:
+
+  1. body          → margin: 0 e uma font-family à sua escolha.
+  2. h1 e h2       → em UMA regra só (seletor agrupado com vírgula), color: #4b2e1e.
+  3. nav a         → (seletor descendente) text-decoration: none.
+  4. nav a:hover   → (pseudo-classe) text-decoration: underline.
+  5. .cardapio > li → (seletor de filho direto) um padding qualquer.
+  6. .preco        → font-weight: bold.
+  7. .destaque     → background-color: #fff3cd.
+  8. .destaque .preco → color: #b00020.
+     Pergunta para pensar: por que esta regra vence a regra 6 se as duas mexem no mesmo
+     elemento? (resposta: especificidade — veja a aula)
+
+  Aula: Parte B, seção 1.
+  Teste: npm run exercicio -- 07-seletores
+*/

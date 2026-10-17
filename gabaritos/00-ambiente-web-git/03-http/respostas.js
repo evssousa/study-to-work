@@ -1,0 +1,17 @@
+export const respostas = {
+  metodoParaBuscar: "GET",
+  metodoParaCriar: "POST",
+  metodoParaAtualizarParcialmente: "PATCH",
+  metodoParaSubstituir: "PUT",
+  metodoParaRemover: "DELETE",
+  statusSucesso: 200,
+  statusCriado: 201,
+  statusRequisicaoInvalida: 400,
+  statusNaoAutenticado: 401,
+  statusSemPermissao: 403,
+  statusNaoEncontrado: 404,
+  statusErroDoServidor: 500,
+  portaPadraoHttps: 443,
+  sistemaQueTraduzDominios: "DNS",
+  ondeVaiOTokenDeLogin: "cabecalho",
+};

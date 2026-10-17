@@ -1,0 +1,21 @@
+/*
+  Exercício 13 — Transições, animações e movimento reduzido
+
+  1. .botao → transition que inclua a propriedade transform (ex.: transform 0.2s ease)
+
+  2. .botao:hover e .botao:focus-visible → transform: translateY(-2px)
+     (o efeito também deve aparecer para quem navega pelo TECLADO)
+
+  3. Crie uma animação com @keyframes chamada pulsar
+     (por exemplo, de scale(1) para scale(1.05) e de volta).
+
+  4. .notificacao → animation usando "pulsar", repetindo para sempre (infinite).
+
+  5. Acessibilidade: algumas pessoas sentem enjoo ou tontura com movimento na tela.
+     Dentro de @media (prefers-reduced-motion: reduce):
+       .botao        → transition: none
+       .notificacao  → animation: none
+
+  Aula: Parte B, seção 7.
+  Teste: npm run exercicio -- 13-transicoes
+*/

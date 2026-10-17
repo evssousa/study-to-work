@@ -1,0 +1,32 @@
+.botao {
+  transition: transform 0.2s ease;
+}
+
+.botao:hover,
+.botao:focus-visible {
+  transform: translateY(-2px);
+}
+
+@keyframes pulsar {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.notificacao {
+  animation: pulsar 1.5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .botao {
+    transition: none;
+  }
+
+  .notificacao {
+    animation: none;
+  }
+}

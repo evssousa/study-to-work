@@ -1,0 +1,35 @@
+/*
+  Exercício 11 — CSS Grid
+
+  Parte 1 — layout da página com áreas nomeadas:
+
+     ┌─────────────── topo ───────────────┐
+     │ lateral │        conteudo          │
+     └────────────── rodape ──────────────┘
+
+  1. .layout →
+     - display: grid
+     - grid-template-columns: 250px 1fr
+     - grid-template-areas com as áreas "topo topo", "lateral conteudo" e "rodape rodape"
+     - min-height: 100vh
+
+  2. Cada filho ocupa sua área:
+     .layout__topo     → grid-area: topo
+     .layout__lateral  → grid-area: lateral
+     .layout__conteudo → grid-area: conteudo
+     .layout__rodape   → grid-area: rodape
+
+  Parte 2 — a galeria:
+
+  3. .galeria →
+     - display: grid
+     - grid-template-columns: repeat(3, 1fr)   (3 colunas iguais)
+     - um gap qualquer
+     - list-style: none e padding: 0
+
+  4. .galeria img → width: 100%; aspect-ratio: 1 / 1; object-fit: cover;
+     (fotos quadradas, sem distorcer)
+
+  Aula: Parte B, seção 5.
+  Teste: npm run exercicio -- 11-grid
+*/

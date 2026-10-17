@@ -1,0 +1,21 @@
+/*
+  Exercício 12 — Responsividade (mobile first)
+
+  Escreva primeiro o CSS do CELULAR (sem media query) e depois vá "acrescentando"
+  para telas maiores com @media (min-width: ...). Não use max-width nas media queries.
+
+  1. img → max-width: 100%; height: auto;   (imagem nunca "estoura" a tela)
+
+  2. .container → max-width: 1200px; margin: 0 auto; e um padding lateral qualquer.
+
+  3. .cards (celular) → display: grid; grid-template-columns: 1fr; um gap; list-style: none; padding: 0;
+
+  4. @media (min-width: 768px)  → .cards com grid-template-columns: repeat(2, 1fr)
+
+  5. @media (min-width: 1024px) → .cards com grid-template-columns: repeat(3, 1fr)
+
+  Teste no navegador: F12 → ícone de celular (Toggle device toolbar) e mude a largura.
+
+  Aula: Parte B, seção 6.
+  Teste: npm run exercicio -- 12-responsivo
+*/

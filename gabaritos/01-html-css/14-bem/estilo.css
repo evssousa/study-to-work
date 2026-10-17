@@ -1,0 +1,29 @@
+.produto {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.produto__nome {
+  font-size: 1.25rem;
+}
+
+.produto__preco {
+  font-weight: bold;
+}
+
+.produto__botao {
+  padding: 0.5rem 1rem;
+}
+
+.produto__botao:hover {
+  opacity: 0.9;
+}
+
+.produto--promocao {
+  border-color: #e0a800;
+}
+
+.produto__preco--promocao {
+  color: #b00020;
+}

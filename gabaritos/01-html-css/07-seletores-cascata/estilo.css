@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+h1,
+h2 {
+  color: #4b2e1e;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.cardapio > li {
+  padding: 0.5rem 0;
+}
+
+.preco {
+  font-weight: bold;
+}
+
+.destaque {
+  background-color: #fff3cd;
+}
+
+.destaque .preco {
+  color: #b00020;
+}
