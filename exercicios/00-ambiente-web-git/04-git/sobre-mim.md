@@ -1,0 +1,1 @@
+Me chamo Everson Sousa, sou professor/coordenador do eixo de TI e leciono principalmente disciplinas relacionadas a programação.
