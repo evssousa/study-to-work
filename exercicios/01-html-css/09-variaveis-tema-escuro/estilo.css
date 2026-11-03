@@ -21,3 +21,27 @@
   Aula: Parte B, seção 3 (variáveis CSS).
   Teste: npm run exercicio -- 09-variaveis
 */
+
+:root {
+  --cor-fundo: rgb(212, 212, 212);
+  --cor-texto: rgb(27, 27, 27);
+  --cor-primaria: rgb(235, 235, 235);
+  --espaco: 10px;
+}
+
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+}
+
+.botao {
+  background-color: var(--cor-primaria);
+  padding: var(--espaco);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cor-fundo: rgb(22, 22, 22);
+    --cor-texto: rgb(244, 244, 244);
+  }
+}
