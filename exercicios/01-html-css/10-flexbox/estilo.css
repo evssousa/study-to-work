@@ -19,3 +19,31 @@
   Aula: Parte B, seção 4.
   Teste: npm run exercicio -- 10-flexbox
 */
+
+.cabecalho {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.cabecalho__menu {
+   display: flex;
+   gap: 10px;
+   list-style: none;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+
+main {
+   flex: 1;
+}
+
+.rodape {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
