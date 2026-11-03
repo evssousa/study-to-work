@@ -19,24 +19,27 @@
   Teste: npm run exercicio -- 06-acessibilidade
 -->
 <!doctype html>
-<html>
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8" />
     <title>Loja do Bairro</title>
   </head>
   <body>
-    <div class="topo">
-      <img src="logo.png" />
+    <h1>Loja do Bairro</h1>
+    <header class="topo">
+      <img src="logo.png" alt="logo"/>
       <span>Loja do Bairro</span>
-    </div>
+    </header>
 
-    <h3>Promoções</h3>
-    <p>Tênis de corrida por apenas R$ 199,90.</p>
-    <div class="botao" onclick="comprar()">Comprar</div>
-
-    <p>Receba ofertas por e-mail:</p>
-    <input type="text" placeholder="Seu e-mail" />
-
-    <p><a href="/promocoes">Clique aqui</a> para ver as promoções da semana.</p>
+    <main>
+      <h2>Promoções</h2>
+      <p>Tênis de corrida por apenas R$ 199,90.</p>
+      <button class="botao" onclick="comprar()">Comprar</button>
+  
+      <label for="email">Receba ofertas por e-mail:</label>
+      <input type="email" id="email" placeholder="Seu e-mail" />
+  
+      <p><a href="/promocoes">Ver as promoções da semana.</a></p>
+    </main>
   </body>
 </html>
