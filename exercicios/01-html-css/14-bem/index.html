@@ -25,3 +25,28 @@
   Aula: Parte B, seção 8.
   Teste: npm run exercicio -- 14-bem
 -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <title>Loja Virtual do BEM</title>
+</head>
+<body>
+  <article class="produto">
+    <img src="./assets/televisao.webp" alt="Televisão 42 polegadas" class="produto__imagem">
+    <h2 class="produto__nome">Televisão</h2>
+    <p class="produto__preco">R$ 7.000,00</p>
+    <button class="produto__botao">Comprar</button>
+  </article>
+
+  <article class="produto produto--promocao">
+    <img src="./assets/televisao.webp" alt="Televisão 42 polegadas" class="produto__imagem">
+    <h2 class="produto__nome">Televisão</h2>
+    <p class="produto__preco produto__preco--promocao">R$ 4.500,00</p>
+    <button class="produto__botao">Comprar</button>
+  </article>
+</body>
+</html>
