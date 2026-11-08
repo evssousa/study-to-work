@@ -62,7 +62,7 @@ study-to-work/
    abrir) e corrija com os testes do curso:
 
    ```bash
-   npm run corrigir-projeto -- 02 ../calculadora-clt-pj
+   npm run corrigir-projeto -- 02 ../link-em-bio
    ```
 
 4. **Confira o checklist** no fim da aula. Só avance quando estiver tudo marcado.
@@ -78,11 +78,11 @@ uma hora travado tentando de verdade); exercícios e projetos usam **apenas** o 
 | --- | --- | --- | --- | --- |
 | **1. Fundamentos** | 00 | [Web, ambiente, terminal, Git e Markdown](modulos/00-ambiente-web-git.md) | README de perfil do GitHub | ✅ |
 | | 01 | [HTML e CSS](modulos/01-html-css.md) | Site de portfólio pessoal (GitHub Pages) | ✅ |
-| | 02 | [JavaScript: fundamentos](modulos/02-js-fundamentos.md) | Calculadora CLT × PJ (terminal) | ✅ |
-| | 03 | [JavaScript intermediário](modulos/03-js-intermediario.md) | Analisador de extrato bancário (terminal) | ✅ |
+| | 02 | [JavaScript: fundamentos](modulos/02-js-fundamentos.md) | Página "Link em Bio" (GitHub Pages / Vercel) | ✅ |
+| | 03 | [JavaScript intermediário](modulos/03-js-intermediario.md) | Cardápio digital para restaurantes (GitHub Pages / Vercel) | ✅ |
 | | 04 | [JavaScript no navegador (DOM)](modulos/04-js-navegador-dom.md) | Racha-conta: divide despesas do grupo (funciona sem internet) | ✅ |
 | | 05 | [JavaScript assíncrono, APIs e classes](modulos/05-js-assincrono-avancado.md) | Painel de câmbio: cotações reais, conversor e histórico (funciona sem internet) | ✅ |
-| | 06 | [Ferramentas do dia a dia profissional](modulos/06-ferramentas.md) | Pacote npm da calculadora CLT × PJ | ✅ |
+| | 06 | [Ferramentas do dia a dia profissional](modulos/06-ferramentas.md) | Pacote npm publicado no npm (clt-pj ou link-em-bio) | ✅ |
 | **2. Produto e Frontend** | 07 | Análise e projeto de sistemas (requisitos, histórias de usuário, UML/Mermaid) | Documento de requisitos de um produto real | 📝 planejado |
 | | 08 | UX/UI (design system, acessibilidade, protótipo) | Design system + protótipo | 📝 planejado |
 | | 09 | [TypeScript](modulos/09-typescript.md) | *a definir* | 🔄 versão anterior |

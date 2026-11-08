@@ -1,6 +1,6 @@
 // Roda os testes de correção de um projeto de portfólio contra a pasta do seu projeto.
 // Uso: npm run corrigir-projeto -- <numero-do-projeto> <pasta-do-seu-projeto>
-// Exemplo: npm run corrigir-projeto -- 02 ../calculadora-clt-pj
+// Exemplo: npm run corrigir-projeto -- 02 ../link-em-bio
 import { existsSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { raizDoRepositorio } from "../suporte/arquivos.js";

@@ -286,9 +286,10 @@ tabela acessível, sem estilo ou JavaScript inline, `<script type="module" src="
 
 ### README.md do projeto
 
-Título, **link do site publicado no GitHub Pages**, um **print**, seções **Como usar**, **Tecnologias** e
-**Decisões técnicas** (fale do retry com backoff, do cache com TTL, do cancelamento de requisições antigas e
-de por que a última cotação fica salva), e a **fonte dos dados** (a AwesomeAPI, com o link).
+Título, **link do site publicado (GitHub Pages ou Vercel)**, um **print**, seções **Como usar**,
+**Tecnologias** e **Decisões técnicas** (fale do retry com backoff, do cache com TTL, do
+cancelamento de requisições antigas e de por que a última cotação fica salva), e a **fonte dos
+dados** (a AwesomeAPI, com o link).
 
 ## Correção
 
