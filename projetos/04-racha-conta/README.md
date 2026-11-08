@@ -15,7 +15,8 @@ Você vai construir um site que resolve isso, **usável de verdade**:
 - **não precisa de conta nem de servidor**: tudo fica no navegador (`localStorage`), funciona
   sem internet depois de aberto e os dados nunca saem do aparelho.
 
-Publique no GitHub Pages e **mande o link para um grupo de amigos usar na próxima viagem**.
+Crie um **repositório próprio no GitHub**, publique no **GitHub Pages ou na Vercel** e
+**mande o link para um grupo de amigos usar na próxima viagem**.
 Esse é o melhor item de portfólio que existe: um produto com usuários reais.
 
 ```
@@ -198,10 +199,10 @@ elementos que usam `hidden` (`#painel`, `#sem-despesas`, `#acerto-vazio`), ou ac
 
 ### README.md do projeto
 
-Título, **link do site publicado no GitHub Pages**, um **print** (`img/print.png`), seções **Como
-usar**, **Tecnologias** e **Decisões técnicas** (fale do dinheiro em centavos, do algoritmo de
-acerto e de por que a lógica não conhece a página), e um parágrafo sobre **privacidade** (os
-dados ficam só no navegador).
+Título, **link do site publicado (GitHub Pages ou Vercel)**, um **print** (`img/print.png`),
+seções **Como usar**, **Tecnologias** e **Decisões técnicas** (fale do dinheiro em centavos, do
+algoritmo de acerto e de por que a lógica não conhece a página), e um parágrafo sobre
+**privacidade** (os dados ficam só no navegador).
 
 ## Correção
 

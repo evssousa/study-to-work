@@ -215,9 +215,9 @@ jobs:
 7. Escreva README, CHANGELOG e documentos (`docs: ...`).
 8. Antes de pedir a correção, rode você mesmo `npm run lint && npm run format:check && npm test` e `npm pack --dry-run` para ver o que seria publicado.
 9. Crie a tag da versão.
-10. *(Opcional, mas é a graça do projeto)* **publique de verdade**.
+10. **Publique de verdade** (a etapa final obrigatória).
 
-## Publicando de verdade (opcional)
+## Publicando de verdade
 
 > Publicar é **público e quase irreversível**: o nome e a versão publicados não podem ser reaproveitados, e só dá para despublicar nas primeiras horas. Por isso, faça o ensaio
 > antes e só publique quando a correção estiver verde.

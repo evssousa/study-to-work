@@ -274,7 +274,7 @@ pasta-de-estudos/          (no Codespaces: /workspaces)
 ├── study-to-work/         ← o curso
 ├── seu-usuario/           ← projeto 00
 ├── portfolio/             ← projeto 01
-└── calculadora-clt-pj/    ← projeto 02
+└── link-em-bio/           ← projeto 02
 ```
 
 ### 3.4 O seu primeiro exercício

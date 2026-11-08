@@ -1109,9 +1109,9 @@ Para o Node aceitar `import`/`export`, o projeto precisa de um `package.json` di
 
 ```json
 {
-  "name": "calculadora-clt-pj",
+  "name": "link-em-bio",
   "version": "1.0.0",
-  "description": "Compara propostas CLT e PJ pelo terminal",
+  "description": "Gerador de página de link em bio",
   "type": "module"
 }
 ```
@@ -1309,16 +1309,16 @@ Treino extra (recomendado, uma vez por semana): resolva problemas de nível fác
 
 ---
 
-## Projeto do módulo — Calculadora CLT × PJ
+## Projeto do módulo — Gerador de Página "Link em Bio"
 
-Enunciado completo: [projetos/02-calculadora-clt-pj/README.md](../projetos/02-calculadora-clt-pj/README.md).
+Enunciado completo: [projetos/02-link-em-bio/README.md](../projetos/02-link-em-bio/README.md).
 
-Uma ferramenta de terminal que calcula o salário líquido CLT (INSS e IRRF progressivos, com as
-tabelas oficiais), o pacote anual (13º, férias, FGTS, benefícios) e quanto faturar como PJ para
-ganhar o mesmo. Um problema real, que você mesmo vai usar ao receber propostas.
+Um script Node.js que lê um `config.json` com seus dados pessoais e gera um `index.html` completo
+— sua própria página de "link em bio", gratuita, publicada no GitHub Pages ou na Vercel. O link
+vai na bio do Instagram, LinkedIn e onde mais quiser: cliques de pessoas reais todo dia.
 
 ```bash
-npm run corrigir-projeto -- 02 ../calculadora-clt-pj
+npm run corrigir-projeto -- 02 ../link-em-bio
 ```
 
 ---

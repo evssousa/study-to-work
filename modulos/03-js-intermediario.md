@@ -1494,16 +1494,17 @@ regras.json
 
 ---
 
-## Projeto do módulo — Analisador de extrato bancário
+## Projeto do módulo — Cardápio Digital para Restaurantes
 
-Enunciado completo: [projetos/03-analisador-de-extrato/README.md](../projetos/03-analisador-de-extrato/README.md).
+Enunciado completo: [projetos/03-cardapio-digital/README.md](../projetos/03-cardapio-digital/README.md).
 
-Uma ferramenta de terminal que **importa o CSV exportado pelo seu banco**, separa os gastos em categorias por regras
-que você mesmo define (regex), e mostra o relatório do mês: quanto entrou, quanto saiu, gastos por categoria,
-maiores gastos e a comparação com o mês anterior. Tudo no seu computador, sem enviar os seus dados para lugar nenhum.
+Um script Node.js que lê um `cardapio.json` com os dados do restaurante (nome, categorias, itens,
+preços, especial do dia) e gera um `index.html` completo. Publique no GitHub Pages ou na Vercel,
+gere um QR code e cole nas mesas. Cada cliente que escaneia está usando o seu sistema. Você ainda
+pode oferecer esse serviço para restaurantes locais e cobrar R$ 100–500 para configurar.
 
 ```bash
-npm run corrigir-projeto -- 03 ../analisador-de-extrato
+npm run corrigir-projeto -- 03 ../cardapio-digital
 ```
 
 ---

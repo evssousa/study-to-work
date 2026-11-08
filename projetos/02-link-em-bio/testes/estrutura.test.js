@@ -2,7 +2,7 @@ import { describe, expect, test } from "vitest";
 import { caminhoDoProjeto, existe, lerTexto } from "../../../suporte/arquivos.js";
 
 describe("estrutura do projeto", () => {
-  test.each(["package.json", "README.md", "src/calculos.js", "src/tabelas.js", "src/cli.js"])(
+  test.each(["package.json", "README.md", ".gitignore", "config.json", "src/validar.js", "src/html.js", "src/gerar.js"])(
     "o arquivo %s existe",
     (arquivo) => {
       expect(existe(caminhoDoProjeto(arquivo)), `Crie o arquivo ${arquivo}`).toBe(true);
@@ -24,26 +24,28 @@ describe("estrutura do projeto", () => {
     expect(existe(caminhoDoProjeto(".gitignore")), "Crie um .gitignore").toBe(true);
     expect(lerTexto(caminhoDoProjeto(".gitignore"))).toContain("node_modules");
   });
+
+  test("config.json é um JSON válido com nome e ao menos um link", () => {
+    const config = JSON.parse(lerTexto(caminhoDoProjeto("config.json")));
+    expect(config.nome, "Preencha seu nome no config.json").toBeTruthy();
+    expect(Array.isArray(config.links), "config.json precisa ter uma lista de links").toBe(true);
+    expect(config.links.length, "Adicione pelo menos um link").toBeGreaterThanOrEqual(1);
+  });
 });
 
-describe("README.md (é a vitrine do projeto para recrutadores e usuários)", () => {
+describe("README.md (vitrine do projeto)", () => {
   const readme = () => lerTexto(caminhoDoProjeto("README.md"));
 
   test("tem um título", () => {
     expect(readme()).toMatch(/^# .+/m);
   });
 
-  test("explica como usar, com exemplo de comando", () => {
+  test("tem o link do site publicado (GitHub Pages ou Vercel)", () => {
+    expect(readme()).toMatch(/github\.io|vercel\.app/i);
+  });
+
+  test("explica como usar (node src/gerar.js)", () => {
     expect(readme()).toMatch(/^## .*(como usar|uso)/im);
-    expect(readme()).toContain("--salario");
-  });
-
-  test("mostra um exemplo de saída do programa", () => {
-    expect(readme()).toContain("Salário líquido CLT");
-  });
-
-  test("informa as fontes das tabelas e as simplificações feitas", () => {
-    expect(readme()).toMatch(/gov\.br/i);
-    expect(readme()).toMatch(/simplifica/i);
+    expect(readme()).toContain("gerar.js");
   });
 });
